@@ -15,6 +15,7 @@ namespace QuessTheNumber
         // Вывести результат попытки угадать число
         public void ShowGuessResult(int difference)
         {
+            int a;
             Console.WriteLine(difference switch
             {
                 // В зависимости от разницы выводить подсказку
