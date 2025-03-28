@@ -9,7 +9,7 @@ namespace QuessTheNumber
     // Реализация интерфейса IGameOutput для консоли
     public class ConsoleGameOutput : IGameOutput
     {
-        // Вывести приветствие 
+        // Вывести приветствие fghjk
         public void ShowWelcome() => Console.WriteLine("Добро пожаловать в игру 'Угадай число'!");
 
         // Вывести результат попытки угадать число
