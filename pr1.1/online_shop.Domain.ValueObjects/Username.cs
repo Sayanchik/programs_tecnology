@@ -1,0 +1,12 @@
+﻿
+using online_shop.Domain.ValueObjects.Base;
+using online_shop.Domain.ValueObjects.Validators;
+
+namespace online_shop.Domain.ValueObjects
+{
+    /// <summary>
+    /// Represents type of the entity's username.
+    /// </summary>
+    /// <param name="name">The username of the entity.</param>
+    public class Username(string name) : ValueObject<string>(new UsernameValidator(), name);
+}

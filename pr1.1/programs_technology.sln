@@ -20,6 +20,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "systemOfBankAccount", "syst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuessTheNumber", "QuessTheNumber\QuessTheNumber.csproj", "{0E9D3C32-91C0-4A85-8E8E-8148E91D559E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "course work", "course work", "{966D9728-3A63-4E42-A173-31870E4E4BE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F8C7BDD9-0224-49B9-B197-F7266E9E2B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "online_shop.Domain.Repositories.Abstractions", "online_shop.Domain.Repositories.Abstractions\online_shop.Domain.Repositories.Abstractions.csproj", "{F3C2939D-F5F4-4DB1-BE8B-481450E90E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online_shop.Domain.Services", "Online_shop.Domain.Services\Online_shop.Domain.Services.csproj", "{216F1607-B59D-4075-8CA8-D92A6F40BC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "online_shop.Domain.ValueObjects", "online_shop.Domain.ValueObjects\online_shop.Domain.ValueObjects.csproj", "{22DB18E2-CD75-4B20-9340-21B4AB620ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "online_shop.Domain", "online_shop.Domain\online_shop.Domain.csproj", "{5A330F2A-B8F5-426F-A69E-2D3CE05EEA48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +50,22 @@ Global
 		{0E9D3C32-91C0-4A85-8E8E-8148E91D559E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E9D3C32-91C0-4A85-8E8E-8148E91D559E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E9D3C32-91C0-4A85-8E8E-8148E91D559E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C2939D-F5F4-4DB1-BE8B-481450E90E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C2939D-F5F4-4DB1-BE8B-481450E90E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C2939D-F5F4-4DB1-BE8B-481450E90E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C2939D-F5F4-4DB1-BE8B-481450E90E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216F1607-B59D-4075-8CA8-D92A6F40BC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216F1607-B59D-4075-8CA8-D92A6F40BC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216F1607-B59D-4075-8CA8-D92A6F40BC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216F1607-B59D-4075-8CA8-D92A6F40BC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DB18E2-CD75-4B20-9340-21B4AB620ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DB18E2-CD75-4B20-9340-21B4AB620ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DB18E2-CD75-4B20-9340-21B4AB620ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DB18E2-CD75-4B20-9340-21B4AB620ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A330F2A-B8F5-426F-A69E-2D3CE05EEA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A330F2A-B8F5-426F-A69E-2D3CE05EEA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A330F2A-B8F5-426F-A69E-2D3CE05EEA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A330F2A-B8F5-426F-A69E-2D3CE05EEA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +76,11 @@ Global
 		{55332104-AC86-428A-AAA4-BB8112B58716} = {080AAF5A-56FD-4BF6-A38A-25C30E4C0EC0}
 		{A6BC2A82-9A2A-46E4-95C7-E486724E7D53} = {55332104-AC86-428A-AAA4-BB8112B58716}
 		{0E9D3C32-91C0-4A85-8E8E-8148E91D559E} = {B74A0EB6-11FC-48D1-B701-064995C6E016}
+		{F8C7BDD9-0224-49B9-B197-F7266E9E2B70} = {966D9728-3A63-4E42-A173-31870E4E4BE2}
+		{F3C2939D-F5F4-4DB1-BE8B-481450E90E21} = {F8C7BDD9-0224-49B9-B197-F7266E9E2B70}
+		{216F1607-B59D-4075-8CA8-D92A6F40BC94} = {F8C7BDD9-0224-49B9-B197-F7266E9E2B70}
+		{22DB18E2-CD75-4B20-9340-21B4AB620ADB} = {F8C7BDD9-0224-49B9-B197-F7266E9E2B70}
+		{5A330F2A-B8F5-426F-A69E-2D3CE05EEA48} = {F8C7BDD9-0224-49B9-B197-F7266E9E2B70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A6DA524-5B0E-492B-9139-C007FF2958F5}
